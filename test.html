@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/test.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="test">
+    dwwddwdw
+	<div class="lh1">
+		<p>行高1</p>
+	</div>
+dwdwdw
+	<div class="lh2">
+		<p>行高2</p>
+	</div>
+	dwdwdwdw
+	<div class="lh3">
+		<p>行高3</p>
+	</div>dwwdwdw
+</div>
+<div>
+    <p class="p1">5、素选择器： :first-line first-letter before, :after
+        6、语言伪类选择器： :lang，语言信息必须包含在文档中或与文档关联，不能在CSS指定。
+        7、其它伪类选择器： :root, :empty
+        四、属性选择器
+        1、[attr]：表示拥有指定属性的所有元素。
+        2、[attr=”value”]：表示属性值为”value”的所有元素。
+        3、[attr~=”value1 value2 value3...”]：表示属性值为任一”value”的所有元素。
+        4、[attr^=”value”]：表示属性值以”value”开头的所有元素。
+        5、[attr$=”value”]：表示属性值以”value”结尾的所有元素。
+        6、[attr*=”value”]：表示属性值字符串包含”value”的所有元素。
+        7、[attr|=”value”]：表示属性值为”value”或以”value-”开头的所有元素。
+        CSS文字样式
+    </p>
+    <p class="p2">first-line first-letter before, first-letter before, first-letter before, firs
+        t-letter beforeddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd, first-letter before,</p>
+    <p class="p3">first-line first-letter before,</p>
+
+
+</div>
+<div class="white1 cover-block"></div>
+<video style="position: absolute;top: 0;width: 1349px;z-index: -2" autoplay loop>
+    <source src="https://www.vipp.com/sites/default/files/kitchen-klip-2.mp4" type="video/mp4">
+</video>
+<div class="white2 cover-block"></div>
+<table border="1" cellpadding="3" cellspacing="2">
+    <thead>
+    <tr>
+        <td>14</td>
+        <td>34</td>
+    </tr>
+    </thead>
+    <tr>
+        <th>3</th>
+        <th>1</th>
+    </tr>
+    <colgroup>
+        <col style="background-color: #028CBA">
+    </colgroup>
+    <caption>wad</caption>
+    <tbody>
+    </tbody>
+</table>
+<span>span1</span><i>iiiii</i>
+<address>address</address>
+<q>qqqqq</q><cite>cite</cite>
+<del>del</del>
+<ins>ins</ins>
+<em>em</em><dfn>dfn</dfn>
+<mark>mark</mark>
+<s>sssss</s><u>uuuuu</u><var>var</var><span>3<sup>2</sup> and log<sub>3</sub></span>
+<!--<iframe src="https://www.baidu.com" frameborder="1" style="float: right;position: absolute;top: 0;right: 20px"-->
+<!--width="400"-->
+<!--height="1300"></iframe>-->
+<span>span2</span>
+
+<canvas class="canvas1" id="myCanvas" width="200" height="150"
+        style="border: 1px solid;background-color: #dcc3a2"></canvas>
+<form action="" style="width: 260px;margin-top: 10px">
+    <textarea name="" id="121" cols="50" rows="3">231</textarea>12dwwd
+    <fieldset class="form-fs" style="border-radius: 5px;border-color: bisque">
+        <legend align="center">fieldset</legend>
+        <input id="email" type="email" placeholder="email" list="dl">
+        <label for="email">mail:</label>
+        <datalist id="dl">
+            <option value="option1"></option>
+            <option value="option2" selected></option>
+            <option value="option3" disabled></option>
+            <option value="option4"></option>
+            <option value="option5"></option>
+        </datalist>
+        <input id="password" type="password" placeholder="password" minlength="6" maxlength="20">
+        <label for="password">password:</label>
+    </fieldset>
+    <select name="" id="">
+        <option value="">option1</option>
+        <option value="">option2</option>
+        <option value="" selected>option3</option>
+        <option value="">option4</option>
+        <option value="" disabled>option5</option>
+    </select>
+</form>
+<fieldset style="border-radius: 5px;border-color: darkgoldenrod;width: 650px">
+    <legend align="center">百度+淘宝</legend>
+    <img src="image/238137229496121657.png" width=500 height="350" alt="" usemap="#map" border="1"
+         style="border-color: darkgoldenrod;float: left"><span>span1</span><span>span2</span><span>span1</span><span>span2</span><span>span3</span><span>span4</span><span>span5</span>
+    <map name="map">
+        <area shape="rect" coords="250,200,500,350" href="https://www.baidu.com" target="_blank" alt="">
+        <area shape="circle" coords="50,300,50" href="https://www.taobao.com" target="_blank" alt="">
+    </map>
+</fieldset>
+<span>span1</span><span>span2</span><span>span3</span>
+<br><br>
+<li>li1</li>
+d
+<li style="border: 1px solid;width: 100px;height: 50px">li2</li>
+d
+<ul>ul
+    <li style="border: 1px solid;width: 100px;height: 50px">d</li>
+</ul>
+<ol>ol</ol>
+<dl>
+    <dt>&lt;+&gt;+&#169;</dt>
+    <dd>dd02</dd>
+    <dt>dt2</dt>
+    <dd>dd01</dd>
+    <dt>dt3</dt>
+    <dd>dd03</dd>
+</dl>
+<script type="text/javascript">
+    //    setTimeout("canvas()", 1000);
+    canvas();
+
+    function canvas() {
+        var c = $(".canvas1")[0].getContext("2d");
+        var r = Math.PI;
+        c.fillStyle = "red";
+        c.fillRect(150, 50, 52, 22);
+        c.moveTo(100, 50);
+        c.lineTo(0, 0);
+        c.lineTo(50, 50);
+        c.lineTo(20, 50);
+        c.moveTo(150, 100);
+        c.lineTo(50, 110);
+        c.arc(150, 50, 50, r / 2, r * 1.5);
+        c.stroke();
+        c.font = "25px Arial";
+        c.strokeText("东方快车谋杀案", 10, 140);
+        var gc = c.createRadialGradient(75, 50, 21, 80, 70, 26);
+//        var gc = c.createLinearGradient(75,50,5,90,60,100);
+        gc.addColorStop(0, "red");
+//        gc.addColorStop(0.5, "blue");
+        gc.addColorStop(1, "black");
+        c.fillStyle = gc;
+        c.fillRect(0, 0, 200, 150);
+        c.fill();
+    }
+
+    //    var c = document.getElementById("myCanvas");
+    //    var cc = c.getContext("2d");
+    //    cc.fillStyle = "#FF0000";
+    //    cc.fillRect(0, 0, 55, 55);
+</script>
+</body>
+</html>
